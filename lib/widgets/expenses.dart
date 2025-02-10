@@ -1,11 +1,8 @@
-import 'dart:ffi';
-
 import 'package:expenses_app/widgets/chart/chart.dart';
 import 'package:expenses_app/widgets/expenses_list/expenses_list.dart';
 import 'package:expenses_app/widgets/new_expense.dart';
 import 'package:flutter/material.dart';
 import 'package:expenses_app/models/expense.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
